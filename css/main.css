@@ -184,4 +184,8 @@ dt {
     font-weight: bold;
 }
 
+.notfound {
+    margin-top: 70px;
+}
+
 ::selection { color:rgba(255, 255, 255, 1); background:  var(--border-color);}
