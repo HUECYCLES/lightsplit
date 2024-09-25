@@ -1,1 +1,158 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+    --background: #000000;
+    --dark-gray: #222222;
+    --font: "Courier New";
+    --h1: #ffffff;
+    --h2: #dfdfdf;
+    --h3: #c6c6c6;
+    --link-default: #6e5a71;
+    --link-hover: #2d1530;
+    --font-color: #ffffff;
+    --font-tiny: 80%;
+    --font-tinier: 50%;
+    --border-color: #2d1530;
+}
+
+body {
+    background-color: var(--background);
+    font-family: var(--font), sans-serif;
+    line-height: 140%;
+    font-weight: normal;
+    color: var(--font-color); 
+}
+
+p {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    text-align: justify;
+}
+
+a {
+    color: var(--link-default);
+    font-weight: bold;
+}
+
+a:hover {
+    color: var(--font-color);
+    background-color: var(--link-hover);
+}
+
+hr {
+    margin: 2px 0;
+    opacity: 0.2;
+}
+
+table {
+    border: 2px solid;
+    border-color: var(--border-color);
+    padding: 0px;
+}
+
+th {
+    text-align: left;
+    padding: 20px;
+    font-family: var(--font);
+}
+
+td {
+    text-align: left;
+    padding: 20px;
+    font-family: var(--secondary_font);
+}
+
+tr:nth-child(even) {background-color: var(--background);}
+tr:nth-child(odd) {background-color: var(--dark-gray);}
+
+h1 {
+    color: var(--h1);
+    font-size: 40px;
+    margin-top: 25;
+    margin-bottom: 25;
+    font-weight: bold;
+    font-family: var(--font);
+}
+  
+h2 {
+    color: var(--h2);
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-family: var(--font);
+}
+  
+h3 {
+    color: var(--h3);
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-family: var(--font);
+}
+
+.center {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centerimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left {
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.right {
+    text-align: right;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container div {
+    width: 700px;
+}
+
+.pixelated {
+    image-rendering: pixelated;
+}
+
+.smooth {
+    image-rendering: smooth;
+}
+
+dl {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+dt {
+    font-weight: bold;
+}
+
+::selection { color:rgba(255, 255, 255, 1); background:  var(--border-color);}

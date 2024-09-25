@@ -1,0 +1,28 @@
+nav {
+    font-family: var(--font);
+    font-size: 50%;
+    padding: 15px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 30px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: var(--link-default);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav li a:hover {
+    color: var(--font-color);
+    background-color: var(--link-hover);
+}

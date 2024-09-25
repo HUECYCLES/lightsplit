@@ -1,0 +1,9 @@
+footer {
+    background-color: var(--background);;
+    padding: 20px;
+    font-weight: bold;
+    font-size:15px;
+    text-align: center;
+    text-shadow: var(--text-shadow-footer);
+    /* border-top: 1px solid rgb(22, 22, 22); */
+}
